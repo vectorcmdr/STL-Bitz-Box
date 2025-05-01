@@ -54,6 +54,9 @@ A simple STL library manager for Windows that helps you organize your huge colle
 <img src="https://img.shields.io/badge/javascript-grey?style=for-the-badge&logo=javascript" height="35"/></a>
 
 <a href="#">
+<img src="https://img.shields.io/badge/C-grey?style=for-the-badge&logo=c" height="35"/></a>
+
+<a href="#">
 <img src="https://img.shields.io/badge/html-grey?style=for-the-badge&logo=html5" height="35"/></a>
 
 <a href="#">
