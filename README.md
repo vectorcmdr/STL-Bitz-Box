@@ -39,7 +39,7 @@
 </h3>
 
 <p align="center">
-  <img src="img/preview.png" height="600"/>
+  <img src="img/preview.png"/>
 </p>
 
 
