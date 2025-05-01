@@ -199,11 +199,19 @@ h4 {
 table {
     background-color: var(--basalt);
     width: 100%;
-    table-layout: fixed;
+    table-layout: auto;
+    border-collapse: collapse;
     color: var(--mackerel);
     word-break:break-all;
 }
 
+table .absorbing-column {
+    width: 100%;
+}
+
+.six {
+    width: 6%;
+}
 .eight {
     width: 8%;
 }
@@ -213,17 +221,29 @@ table {
 .twelve {
     width: 12%;
 }
+.sixteen {
+    width: 16%;
+}
 .eighteen {
     width: 18%;
 }
 .twenty {
     width: 20%;
 }
+.twentyfour {
+    width: 24%;
+}
 .twentysix {
     width: 26%;
 }
 .thirty {
     width: 30%;
+}
+.fourty {
+    width: 40%;
+}
+.hundred {
+    width: 100%;
 }
 
 /* Colour every even row, for debugging
