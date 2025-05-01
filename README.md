@@ -189,8 +189,8 @@ Don't forget to give the project a star! Thanks again!
 
 #### 🤸 Top contributors:
 
-<a href="https://github.com/vectorcmdr/STL-Bitz-Box/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vectorcmdr/STL-Bitz-Box" />
+<a href="https://github.com/vectorcmdr/stl-bitz-box/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vectorcmdr/stl-bitz-box" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
