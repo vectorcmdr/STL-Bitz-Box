@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us" id="top">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>STL Bitz Box</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/datatable.min.js"></script>
+
+        <!-- Image Lazy Loading -->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () { 
+                document.addEventListener('scroll', loadImagesLazily); 
+                window.addEventListener('resize', loadImagesLazily); 
+            }); 
+            
+            function loadImagesLazily() { 
+              let images = document.querySelectorAll("img[data-src]");
+              for (let i = 0; i < images.length; i++) { 
+                let rect = images[i].getBoundingClientRect(); 
+                if (images[i].hasAttribute("data-src") 
+                  && rect.bottom > 0 && rect.top < window.innerHeight 
+                  && rect.right > 0 && rect.left < window.innerWidth) { 
+                  images[i].setAttribute("src", images[i].getAttribute("data-src")); 
+                  images[i].removeAttribute("data-src"); 
+                } 
+              } 
+            };
+        </script>
+        <!-- /Image Lazy Loading -->
+
+        <!-- 3D Viewer Loader -->
+        <script>
+            function loadSTLView(a) {
+                localStorage.setItem("stlName", a);
+            }
+        </script>
+        <!-- /3D Viewer Loader -->
+
+    </head>
+
+    <body>
+        <!-- Title -->
+        <div>
+            <!-- Issue Bubble -->
+            <a href="https://github.com/vectorcmdr/STL-Bitz-Box/issues/new" target="_blank" rel="noopener noreferrer">
+                <p title="Report an issue or bug!" class="issue-shake">
+                🐛 Found a bug?<br>Click here!
+                </p>
+            </a>
+            <!-- /Issue Bubble -->
+
+            <!-- Outlinks Box -->
+            <p class="outlink-box">
+            🔵 <a href="https://www.thingiverse.com/" target="_blank" rel="noopener noreferrer">Thingiverse</a><br>
+            🟣 <a href="https://cults3d.com/" target="_blank" rel="noopener noreferrer">Cults3D</a><br>
+            🟠 <a href="https://www.printables.com/" target="_blank" rel="noopener noreferrer">Printables</a><br>
+            🟢 <a href="https://www.myminifactory.com/" target="_blank" rel="noopener noreferrer">MyMiniFactory</a><br>
+            </p>
+            <!-- /Outlinks Box -->
+
+            <h1>
+                <a href="https://github.com/vectorcmdr/STL-Bitz-Box" style="all: unset;" target="_blank">
+                🗃️ STL Bitz Box
+                </a>
+            </h1>
+            <h4><i>Your Personal STL Library</i></h4>
+        </div>
+        <div id="load">
+          <br>
+          <p>Loading STL database.<br>Please wait a moment...</p>
+          <img src="img/load.png">
+        </div>
+        <!-- /Title -->
+        <!-- Content Panel -->
+        <div class="tab-content" id="contents">
+            
+            <!-- Rendered Table -->
+            <div role="tabpanel" class="tab-pane active" id="patterns-datatable-output"></div>
+            <!-- /Rendered Table -->
+            
+            <!-- Table Data -->
+            <div role="tabpanel" class="tab-pane" id="patterns-datatable">
+                <table class="table table-bordered" id="table-load">
+                    <colgroup>
+                      <col class="twelve"/>
+                      <col class="ten"/>
+                      <col class="eighteen"/>
+                      <col class="twentysix"/>
+                      <col class="twentysix"/>
+                      <col class="twelve"/>
+                    </colgroup>
+
+                    <thead>
+                        <tr>
+                            <th>🖼️ Preview</th>
+                            <th>🧰 Tools</th>
+                            <th>📦 Container</th>
+                            <th>🗂️ Model Directory</th>
+                            <th>📁 Mesh Directory</th>
+                            <th>🏷️ Tags</th>
+                        </tr>
+                    </thead>
+                    <tbody>

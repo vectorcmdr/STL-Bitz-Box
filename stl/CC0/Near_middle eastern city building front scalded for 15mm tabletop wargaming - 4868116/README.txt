@@ -1,0 +1,1 @@
+Near/middle eastern city building front scalded for 15mm tabletop wargaming by hou2zi0 on Thingiverse: https://www.thingiverse.com/thing:4868116

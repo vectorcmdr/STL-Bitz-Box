@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>STL Viewer</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/viewer.css"> 
+  </head>
+
+  <body>
+
+    <script type="importmap">
+    	{
+    		"imports": {
+    			"three":      "./js/three.module.js",
+          "stlloader":  "./js/stlloader.module.js",
+          "orbit":      "./js/orbitcontrols.module.js",
+          "stats":      "./js/stats.module.js",
+          "viewhelper": "./js/viewhelper.module.js"
+    		}
+    	}
+    </script>
+    
+    <script type="module" src="./js/stlviewer.js"></script>
+  
+    <div id="threejscanvas" class="model-canvas">
+  
+      <div id="modeltitle" class="model-title"></div>
+  
+      <div>
+        <input type="checkbox" id="my-toggle" class="material-checkbox" onclick="matToggle()">
+        <label for="my-toggle" class="material-label">Shaded Material</label>
+      </div>
+    
+      <div id="logo" class="logo">
+        🗃️ STL Bitz Box<br>
+        <a href="https://github.com/vectorcmdr">by vector_cmdr</a>
+      </div>
+  
+    </div>  
+
+  </body>
+
+</html>

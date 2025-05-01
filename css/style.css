@@ -1,0 +1,304 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+* {
+    margin:  0;
+    border:  0;
+    padding: 0;
+    outline: 0;
+
+    list-style:      none;
+    text-decoration: none;
+    text-rendering:  optimizeLegibility;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: subpixel-antialiased;
+    -ms-font-smoothing: subpixel-antialiased;
+    -o-font-smoothing: subpixel-antialiased;
+
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --wisteria-light:   #C5B4F8;
+    --wisteria-dark:    #9A7CF3;
+    --sky-light:        #80DFEF;
+    --sky-dark:         #49D1E9;
+    --surf-light:       #A5F2E3;
+    --surf-dark:        #6FEBD3;
+    --ginkgo-light:     #B9E48B;
+    --ginkgo-dark:      #9BD85A;
+    --yuzu-light:       #F9E18B;
+    --yuzu-dark:        #F6D251;
+    --mikan-light:      #FDAC72;
+    --mikan-dark:       #FC8936;
+    --hydrangea-light:  #FF6D8F;
+    --hydrangea-dark:   #FF2D5E;
+    --azalea-light:     #FF93FA;
+    --azalea-dark:      #FF5DE1;
+    --pebble:           #F5F5EF;
+    --pebble-tr:        #F5F5EF5F;    
+    --mackerel:         #908E8F;
+    --mackerel-tr:      #908E8F20;
+    --basalt:           #2A262C;
+    --basalt-tr:        #2A262C5F;
+    --slate:            #111114;
+    --slate-tr:         #11111420;
+    --anko-light:       #4A3F32;
+    --anko-dark:        #251F18;
+    --karinto-light:    #876D58;
+    --karinto-dark:     #564638;
+    --dango-light:      #F4EED6;
+    --dango-dark:       #E6D79E;
+    --sakura-light:     #F7B8BA;
+    --sakura-dark:      #F17E82;
+    --marblesoda-light: #59C2E6;
+    --marblesoda-dark:  #20A8D5;
+    --matcha-light:     #79D993;
+    --matcha-dark:      #40C965;
+}
+
+.tooltip-item img {
+    transition: transform 200ms ease-in-out;
+    transform-origin: left top;
+}
+
+.tooltip-item img:hover {
+    transform: scale(6); 
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.issue-shake {
+    z-index: 1001; 
+    position: absolute; 
+    top: 12px; 
+    right: 12px;
+    font-size: 12pt;
+    text-align: center;
+    -webkit-animation: issue-img-animate 2s infinite;
+    -moz-animation: issue-img-animate 2s infinite;
+    -o-animation: issue-img-animate 2s infinite;
+    animation: issue-img-animate 2s infinite;
+}
+
+.issue-shake p, .issue-shake a:link {
+    color: var(--slate);
+    text-decoration: none;
+}
+
+.issue-shake p, .issue-shake  a:visited {
+    color: var(--slate);
+    text-decoration: none;
+}
+
+.issue-shake p, .issue-shake  a:hover {
+    color: var(--mackerel);
+    text-decoration: none;
+}
+
+.issue-shake p, .issue-shake  a:active {
+    color: var(--mackerel);
+    text-decoration: none;
+}
+
+.outlink-box {
+    z-index: 1001; 
+    position: absolute; 
+    top: 6px; 
+    left: 6px;
+    font-size: 9pt;
+    text-align: left;
+}
+
+.outlink-box a:link {
+    color: var(--basalt);
+}
+
+.outlink-box a:visited {
+    color: var(--basalt);
+}
+
+.outlink-box a:hover {
+    color: var(--mackerel);
+}
+
+.outlink-box a:active {
+    color: var(--mackerel);
+}
+
+@keyframes issue-img-animate {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(3px); }
+    100% { transform: translateY(0px); }
+}
+
+#load {
+    width:100%;
+    height:100%;
+    position:fixed;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    z-index:9999;
+    background: no-repeat center center rgba(0,0,0,0.9);
+    text-align: center;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+#load img {
+    position:relative;
+    left: 0; 
+    right: 0; 
+    top: 5%;
+    z-index:9999;
+    animation: loadingrotate 1s infinite linear;
+    width: 200px;
+}
+
+@keyframes loadingrotate {
+    0%   { transform: rotate(0deg); }
+    25%  { transform: rotate(9deg); }
+    50%   { transform: rotate(0deg); }
+    75%  { transform: rotate(-9deg); }
+    100% { transform: rotate(0deg); }
+}
+
+body {
+    font-size: 12;
+    font-weight: bold;
+    background-color: var(--wisteria-light);
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    background-color: var(--basalt);
+    width: 100%;
+    table-layout: fixed;
+    color: var(--mackerel);
+    word-break:break-all;
+}
+
+.eight {
+    width: 8%;
+}
+.ten {
+    width: 10%;
+}
+.twelve {
+    width: 12%;
+}
+.eighteen {
+    width: 18%;
+}
+.twenty {
+    width: 20%;
+}
+.twentysix {
+    width: 26%;
+}
+.thirty {
+    width: 30%;
+}
+
+/* Colour every even row, for debugging
+tr:nth-child(even) {
+    background-color: var(--pebble);
+}
+*/
+
+th {
+    text-transform: uppercase;
+}
+
+.logo {
+    margin-bottom: 8px;
+    margin-right: 4px;
+}
+
+.page-select, .page-select option {
+    border-color: var(--mikan-dark);
+    color: var(--basalt);
+    font-weight: bold;
+}
+
+.pagination .active a, .pagination .active a:focus, .pagination .active a:hover, .pagination .active span, .pagination .active span:focus, .pagination .active span:hover {
+    background-color: var(--yuzu-light);
+    border-color: var(--mikan-light);
+    color: var(--basalt);
+}
+
+.pagination li a, .pagination li span {
+    border-color: var(--mikan-light);
+    color: var(--basalt);
+}
+
+#footer { 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: var(--pebble);
+    color: var(--basalt);
+    width: 100%; 
+    height: 4rem;
+    z-index: 1000; 
+}
+
+.sorting {
+    cursor: pointer;
+    background-image: url(../img/sort_both.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.sorting-desc {
+    background-image: url(../img/sort_desc.png);
+}
+.sorting-asc {
+    background-image: url(../img/sort_asc.png);
+}
+.datatable-load-bar {
+    width: 100%;
+    margin: 8px 0;
+}
+
+a:link {
+    color: var(--wisteria-dark);
+}
+
+a:visited {
+    color: var(--wisteria-dark);
+}
+
+a:hover {
+    color: var(--wisteria-light);
+}
+
+a:active {
+    color: var(--wisteria-light);
+}

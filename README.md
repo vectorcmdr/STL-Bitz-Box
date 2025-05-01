@@ -130,7 +130,7 @@ stl
    - Rebuild thumbnials and file DB
    - Rebuild thumbnails only
    - Rebuild file DB only
-   - Audit the size of the library for files at or above 50MB
+   - Audit the size of the library for files at or above 50MB & 100MB
    - Audit the library for FBX or OBJ files
 
 5. `setup_fast.bat` will automatically install dependencies, the server and build the thumbs and DB then launch.

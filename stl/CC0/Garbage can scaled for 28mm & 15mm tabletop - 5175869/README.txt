@@ -1,0 +1,1 @@
+Garbage can scaled for 28mm & 15mm tabletop by hou2zi0 on Thingiverse: https://www.thingiverse.com/thing:5175869

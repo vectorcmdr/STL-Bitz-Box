@@ -1,0 +1,1 @@
+Normandy shed scaled for 15mm tabletop by hou2zi0 on Thingiverse: https://www.thingiverse.com/thing:4867877

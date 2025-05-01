@@ -1,0 +1,1 @@
+terrain, building, house, city, rural, 15mm, 28mm, 32mm

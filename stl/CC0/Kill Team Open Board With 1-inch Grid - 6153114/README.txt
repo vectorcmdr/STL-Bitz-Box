@@ -1,0 +1,1 @@
+Kill Team Open Board With 1-inch Grid by CactusCake on Thingiverse: https://www.thingiverse.com/thing:6153114

@@ -1,0 +1,1 @@
+Ancient Greek style serpent altar scaled for 28mm tabletop terrain by hou2zi0 on Thingiverse: https://www.thingiverse.com/thing:4671822
