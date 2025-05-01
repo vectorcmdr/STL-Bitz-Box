@@ -39,13 +39,15 @@
 </h3>
 
 <p align="center">
-  <img src="img/preview.png"/>
+  <img src="img/preview.png" height="600"/>
 </p>
 
 
 ## 🔍 Overview
 
-A simple STL library manager for Windows that helps you organize your huge collection of 3D prints from monthly model subs and website downloads that features the [**senzai theme**](https://vectorcmdr.github.io/senzai-theme/).
+**A simple STL library manager for Windows that helps you organize your huge collection of 3D prints from monthly model subs and website downloads.**
+
+Features the [**senzai theme**](https://vectorcmdr.github.io/senzai-theme/).
 
 
 ## 🔨 Built With
