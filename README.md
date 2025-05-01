@@ -16,17 +16,17 @@
 
 </div>
 
-[issues-shield]: https://img.shields.io/github/issues/vectorcmdr/STL-Bitz-Box?style=for-the-badge&logo=gitbook&color=fdac72&logoColor=f5f5ef&labelColor=2a262c
-[issues-url]: https://github.com/vectorcmdr/STL-Bitz-Box/graphs/issues
+[issues-shield]: https://img.shields.io/github/issues/vectorcmdr/stl-bitz-box?style=for-the-badge&logo=gitbook&color=fdac72&logoColor=f5f5ef&labelColor=2a262c
+[issues-url]: https://github.com/vectorcmdr/stl-bitz-box/graphs/issues
 
-[contributors-shield]: https://img.shields.io/github/contributors/vectorcmdr/STL-Bitz-Box?style=for-the-badge&logo=github&color=c5b4f8&logoColor=f5f5ef&labelColor=2a262c
-[contributors-url]: https://github.com/vectorcmdr/STL-Bitz-Box/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/vectorcmdr/stl-bitz-box?style=for-the-badge&logo=github&color=c5b4f8&logoColor=f5f5ef&labelColor=2a262c
+[contributors-url]: https://github.com/vectorcmdr/stl-bitz-box/graphs/contributors
 
-[stars-shield]: https://img.shields.io/github/stars/vectorcmdr/STL-Bitz-Box?style=for-the-badge&logo=starship&color=b9e48b&logoColor=f5f5ef&labelColor=2a262c
-[stars-url]: https://github.com/vectorcmdr/STL-Bitz-Box/stargazers
+[stars-shield]: https://img.shields.io/github/stars/vectorcmdr/stl-bitz-box?style=for-the-badge&logo=starship&color=b9e48b&logoColor=f5f5ef&labelColor=2a262c
+[stars-url]: https://github.com/vectorcmdr/stl-bitz-box/stargazers
 
-[license-shield]: https://img.shields.io/github/license/vectorcmdr/STL-Bitz-Box?label=License&style=for-the-badge&logo=bookstack&color=49d1e9&logoColor=f5f5ef&labelColor=2a262c
-[license-url]: https://github.com/vectorcmdr/STL-Bitz-Box/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/vectorcmdr/stl-bitz-box?label=License&style=for-the-badge&logo=bookstack&color=49d1e9&logoColor=f5f5ef&labelColor=2a262c
+[license-url]: https://github.com/vectorcmdr/stl-bitz-box/blob/main/LICENSE
 
 <h3 align="center">
   <p align="center">
