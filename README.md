@@ -69,7 +69,7 @@ A simple STL library manager for Windows that helps you organize your huge colle
 <img src="https://img.shields.io/badge/bootstrap-grey?style=for-the-badge&logo=bootstrap" height="35"/></a>
 
 <a href="#">
-<img src="https://img.shields.io/badge/batch%20script-grey?style=for-the-badge&logo=powershell" height="35"/></a>
+<img src="https://img.shields.io/badge/batch-grey?style=for-the-badge&logo=powershell" height="35"/></a>
 
 
 ## 📋 Goals
