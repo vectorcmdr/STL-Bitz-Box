@@ -199,7 +199,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### 📃 License
 
-Distributed under the GPL-3.0 license. See `LICENSE.txt` for more information.
+Distributed under the MIT license. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
