@@ -120,7 +120,7 @@ void crtMain() {
 
 	auto isSuccessful = false;
 
-	(void)CoInitialize(nullptr);
+	CoInitialize(nullptr);
 
 	print(stdout, "Loading .STL thumbnail handler ...  ");
 	IThumbnailProvider* thumbnailProvider = nullptr;
