@@ -36,7 +36,11 @@
 <h3 align="center">
   <p align="center">
     <a href="https://vectorcmdr.github.io/STL-Bitz-Box">Live Demo </a>
-    &middot;
+  </p>
+</h3>
+
+<h3 align="center">
+  <p align="center">
     <a href="https://github.com/vectorcmdr/STL-Bitz-Box/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/vectorcmdr/STL-Bitz-Box/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
