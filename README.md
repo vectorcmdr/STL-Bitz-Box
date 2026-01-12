@@ -214,6 +214,11 @@ Josh (vectorcmdr) - [u/vector_cmdr](https://www.reddit.com/user/vector_cmdr/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### ☕ Support More Like This
+
+<a href="https://ko-fi.com/vector_cmdr">
+<img src="https://custom-icon-badges.demolab.com/badge/-Donate-lightblue?style=for-the-badge&logo=coffee&logoColor=red" height="64"/></a>
+
 ### 📜 Acknowledgments:
 
 Project includes the following libraries/plugins:
