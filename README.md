@@ -210,7 +210,7 @@ Distributed under the MIT license. See `LICENSE.txt` for more information.
 
 ### 📨 Contact
 
-Josh (vectorcmdr) - [@vector_cmdr](https://x.com/vector_cmdr)
+Josh (vectorcmdr) - [u/vector_cmdr](https://www.reddit.com/user/vector_cmdr/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
